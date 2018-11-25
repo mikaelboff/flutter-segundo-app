@@ -5,8 +5,8 @@ class Coluna extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.blueAccent,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Stack(
+        alignment: Alignment.center,
         children: <Widget>[
           Text("Primeiro",
               textDirection: TextDirection.ltr,
