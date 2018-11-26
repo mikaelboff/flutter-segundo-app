@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'ui/home.dart';
+import 'ui/detector_eventos.dart';
 
-void  main() =>runApp(
-  new MaterialApp(
-    title: "Andaime",
-    home:new Home()
-  )
-);
+void main() => runApp(new MaterialApp(home: new DetectorDeEventos()));
